@@ -1,15 +1,18 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@100&display=swap');
+
 * {
     margin: 0;
     padding: 0;
 }
 
+
 :root{
-    --nav-color-light:rgba(3, 3, 3, 0.507);
+    --nav-color-light: rgb(36, 37, 42);
     --font-color-light:#F6E6DF;
     --background-color-light:wheat ;
     --boder-parameter:solid black 1px;
     --landing-design:solid 6px white;
-    --navbar-font-size: 2.25rem;
+    --navbar-font-size: 1rem;
     --navbar-width: 15%;
 }
 
@@ -23,11 +26,11 @@ html,body {
     width: 100%;
     background-image:url('../resource/images/a_rainy_night_by_seerlight_dcrp1p2.jpg');
     background-size: cover;
-    border:var(--boder-parameter) ;
+    
 }
 .page-container{
     display:flex;
-    margin-top: 2%;
+    margin-top: 5%;
     margin-right: 5%;
     margin-left: 5%;
     width: 100%;
@@ -39,59 +42,71 @@ html,body {
     box-shadow: inset white;
 }
 .navbar {
+    font-family: 'Lato', sans-serif;
     display: flex;
-    height: 10%;
-    width: 84%;
-    left: 8%;
+    flex-direction: row;
+    align-items: center;
+    height: 7%;
+    width: 100%;
+    left: 0px;
     position: fixed;
-    top: 50px;
-    border: solid 3px black;
-    border-radius: 70px;
-    background-color: var(--nav-color-light);
+    top: 0px;
+    background-color: rgb(36, 37, 42);
 }
-
 .navbar-logo {
-    display: flex;
-    height: 100%;
-    width: var(--navbar-width);
-    border: var(--boder-parameter);
+    margin-left: 3%;
 }
 
 .navbar-info {
-    display: flex;
-    height: 100%;
-    width: var(--navbar-width);
-    font-size: var(--navbar-font-size);
-    text-decoration: none;
-    color: var(--font-color-light);
-    border: var(--boder-parameter);
-    align-items: center;
+    margin-left: 15%;
 }
 
 .navbar-resources {
-    display: flex;
-    height: 100%;
-    width: var(--navbar-width);
-    font-size: var(--navbar-font-size);
-    text-decoration: none;
-    color: var(--font-color-light);
-    border: var(--boder-parameter);
-    align-items: center;
+    margin-left: 4%;
 }
 
-.navbar-darkmode {
+.navbar-darkmode{
+    margin-left:60%;
+}
+.navbar-item {
     display: flex;
-    height: 100%;
-    width: var(--navbar-width);
     border: var(--boder-parameter);
-    margin-left: auto;
-    justify-content: end;
-    
+    font-size: var(--navbar-font-size);
+    align-items: center;
+    height: 50%;
+    width: calc(fit-content+100px);
+    text-decoration: none;
+    color: aliceblue;
 }
 
 .body-split{
     display: flex;
     width: 100%;
     height: 100%;
-    border: var(--boder-parameter);
+    
+    align-items: center;
+    flex-direction: column;
+    padding-top:10%;
 }
+
+
+.body-split span{
+    margin-bottom: 5%;
+    display: flex;
+    font-size: 70px;
+    color: #F6E6DF;
+    
+    flex-wrap: nowrap;
+    width: fit-content;
+    text-shadow: 2px 2px 2px black;
+}
+
+.home-symbol{
+    color: rgb(255, 255, 255);
+    font-size: 30px !important;
+}
+
+.mode-icon {
+    font-size: 30px !important;
+}
+

@@ -1,0 +1,72 @@
+.statistics-page-container {
+    display: flex;
+    height: 100%;
+    width: 100%;
+    background-color: #041529;
+}
+
+.statistics-page {
+    display: flex;
+    flex-direction: column;
+    margin-right: 5%;
+    margin-left: 5%;
+    width: 100%;
+    border-left: var(--landing-design);
+    border-right: var(--landing-design);
+}
+
+.statistics-split-title {
+    display: flex;
+    height: 35%;
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+    border: var(--boder-parameter);
+}
+
+.statistics-in-india {
+    font-size: 5rem;
+    color: #D1FFC6;
+}
+
+.statistics-split-content {
+    display: flex;
+    height: 65%;
+    width: 100%;
+    align-items: center;
+    justify-content: space-evenly;
+    border: var(--boder-parameter);
+}
+
+.statistics-item {
+    display: flex;
+    height: 60%;
+    width: 22%;
+    justify-content: center;
+    align-items: center;
+    border: var(--boder-parameter);
+    flex-direction: column;
+}
+
+.statistics-item-big {
+    display: flex;
+    font-size: 3.75rem;
+    width: fit-content;
+    height: 40%;
+    align-items: center;
+    border: var(--boder-parameter);
+    color: #D1FFC6;
+}
+
+.statistics-item-small {
+    display: flex;
+    font-size: 2rem;
+    width: fit-content;
+    height: 50%;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    border: var(--boder-parameter);
+    color: var(--font-color-light);
+}
+
