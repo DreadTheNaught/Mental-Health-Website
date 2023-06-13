@@ -4,6 +4,7 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <script src="js/scrollingNavbar.js"></script>
 
     <title>Mental Health</title>
     <link rel="stylesheet" href="css\landing.css" />
@@ -11,9 +12,12 @@
     <link rel="stylesheet"
       href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@48,400,0,0" />
     <link rel="stylesheet" href="css\statistics-page.css" />
+    <link rel="stylesheet" href="css\information-page.css">
+    <link rel="stylesheet" href="css/article-feed.css">
   </head>
   <body>
     <div class="main-page-container">
+    <div class="scroll-nav">1</div>
       <div class="page-container">
         <div class="navbar">
           <div class="right-end">
@@ -21,7 +25,7 @@
           </div>
           <div class="right-end-shape">2</div>
           <div class="navbar-item-container">
-             <a href="" class="navbar-item navbar-logo">
+              <a href="" class="navbar-item navbar-logo">
             <span class="material-symbols-outlined home-symbol" >home</span>
           </a>
           <div class="dropdown">
@@ -48,53 +52,81 @@
               light_mode
             </span>
           </a>
-        
+
           </div>
         </div>
+        <div id="top-of-site-pixel-anchor"></div>
         <div class="body"></div>
       </div>
     </div>
+   
 
-    <div class="statistics-page-container">
-      <div class="statistics-page">
-        <div class="statistics-split-title">
-          <div class="statistics-in-india">In India</div>
+    <div class="statistics-split-content">
+      <div class="statistics-item" >
+        <div class="statistics-item-big">
+          7.5%
         </div>
-        <div class="statistics-split-content">
-          <div class="statistics-item" >
-            <div class="statistics-item-big">
-              7.5%
-            </div>
-            <div class="statistics-item-small">
-              of people suffer from some mental disorder or mental illness
-            </div>
+        <div class="statistics-item-small">
+          of Indians suffer from some mental disorder or mental illness
+        </div>
+      </div>
+      <div class="statistics-item">
+        <div class="statistics-item-big">
+          150 Million
+        </div>
+        <div class="statistics-item-small">
+          Indians require some form of mental health intervention
+        </div>
+      </div>
+      <div class="statistics-item">
+        <div class="statistics-item-big">
+          56 Million
+        </div>
+        <div class="statistics-item-small">
+            Indians suffer from Depression
+        </div>
+      </div>
+      <div class="statistics-item">
+        <div class="statistics-item-big">
+          38 Million
+        </div>
+        <div class="statistics-item-small">
+          Indians suffer from anxiety
+        </div>
+      </div>
+    </div>
+
+
+    <div class = "information-page-container">
+      <div class = "information-page-split-1">
+        <img class = "information-graphic" src="resource/images/graphicthingimg.svg" alt="">
+      </div> 
+      <div class = "information-page-split-2">
+        <div class = "information-page-title">
+          Why is your mental health important?
+        </div>
+      </div> 
+    </div>
+    
+    <div class="article-feed-container">
+      <div class="article-feed-divide large-view-container">
+        <div class="space-taker"></div>
+        <div class="article-title">
+        </div>
+      </div>
+      <div class="article-feed-divide medium-view-container">
+        <div class="medium-article medium-article-top">
+          <div class="space-taker"></div>
+          <div class="article-title">
           </div>
-          <div class="statistics-item">
-            <div class="statistics-item-big">
-              150 Million
-            </div>
-            <div class="statistics-item-small">
-              people require some form of mental health intervention
-            </div>
-          </div>
-          <div class="statistics-item">
-            <div class="statistics-item-big">
-              56 Million
-            </div>
-            <div class="statistics-item-small">
-                people suffer from Depression
-            </div>
-          </div>
-          <div class="statistics-item">
-            <div class="statistics-item-big">
-              38 Million
-            </div>
-            <div class="statistics-item-small">
-              people suffer from anxiety
-            </div>
+        </div>
+        <div class="medium-article medium-article-bottom">
+          <div class="space-taker"></div>
+          <div class="article-title">
           </div>
         </div>
       </div>
+      <div class="article-feed-divide quick-view-container"></div>
     </div>
   </body>
 </html>

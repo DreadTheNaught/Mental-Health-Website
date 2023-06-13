@@ -1,0 +1,67 @@
+.article-feed-container{
+    height: 90%;
+    width: 90%;
+    padding: 5%;
+    display: flex;
+    border: 1px solid green;
+    background-color: var(--nav-color-light);
+}
+
+.article-feed-divide{
+    display: flex;
+    border: 1px solid black;
+    height: 100%;
+    flex-direction: column;
+   
+
+    
+}
+.medium-view-container{
+    width: 35%;
+    flex-wrap: wrap;
+    flex-direction: row !important;
+    
+}
+
+.large-view-container{
+    width: 35%;
+    background-image: url("../resource/images/yoga.jpg");
+    background-size: cover;
+    margin-right: 1%;
+    
+}
+.quick-view-container{
+    width: 30% !important;
+}
+.medium-article{
+    display: flex;
+    width: 100%;
+    height: 50%;
+    
+}
+.medium-article-top{
+    background-image: url("../resource/images/nutrient2.webp");
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+}
+
+.medium-article-bottom{
+    background-image: url("../resource/images/finance.jpg");
+    background-size: cover;
+    margin-top: 2%;
+    display: flex;
+        flex-direction: column;
+}
+
+.article-title {
+
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.486);
+    height: 30%;
+    top: 0;
+}
+.space-taker{
+    height: 70%;
+    width: 100%;
+}

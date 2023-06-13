@@ -1,0 +1,37 @@
+.information-page-container {
+    display: flex;
+    height: 90%;
+    background-color: var(--background-color);
+}
+
+.information-page-split-1 {
+    display: flex;
+    height: 100%;
+    width: 40%;
+    align-items: center;
+    justify-content: center;
+    border: var(--border-parameter);
+}
+
+.information-graphic {
+    display: flex;
+    height: 65%;
+}
+
+.information-page-split-2 {
+    display: flex;
+    height: 100%;
+    width: 60%;
+    border: var(--border-parameter);
+}
+
+.information-page-title{
+    display: flex;
+    height: 40%;
+    bottom: 10%;
+    border: var(--border-parameter);
+    font-size: 5rem;
+    text-align: center;
+    color: var(--font-color-light);
+
+}
