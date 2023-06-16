@@ -3,7 +3,6 @@
     width: 90%;
     padding: 5%;
     display: flex;
-    border: 1px solid green;
     background-color: var(--nav-color-light);
 }
 
