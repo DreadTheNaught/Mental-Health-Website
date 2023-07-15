@@ -1,0 +1,42 @@
+*{
+    margin: 0;
+    border: 0;
+}
+
+:root{
+    --navbar-font-color:black;
+    --navbar-scroll-font-color:white;
+    --test-border:5px solid black;
+}
+body,html{
+    width: 100%;
+    height: 100%;
+}
+
+.main-page-container{
+    display: flex;
+    border: var(--test-border);
+    width: 100%;
+    height: 100%;
+}
+
+.main-page-landing{
+    display: flex;
+    background-image: url(../resource/images/bg.png);
+    background-size: cover;
+    width: 100%;
+    height: 100%;
+
+}
+
+.main-page-navbar{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    width: 100%;
+    height: 13%;
+}
+
+.each-box{
+    display: flex;
+}

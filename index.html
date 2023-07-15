@@ -1,138 +1,382 @@
-<!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <script src="js/scrollingNavbar.js"></script>
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MentalHealthCompass | Home</title>
+    <!-- Favicon -->
+    <link rel="icon" type="image/png" sizes="32x32" href="images/favicon.png">
+    <!-- Remix icons -->
+    <link href="https://cdn.jsdelivr.net/npm/remixicon@2.5.0/fonts/remixicon.css" rel="stylesheet">
+    <!-- Swiper.js styles -->
+    <link rel="stylesheet" href="css/swiper-bundle.min.css"/>
+    <!-- Custom styles -->
+    <link rel="stylesheet" href="css/main.css">
+</head>
+<body>
+    <!-- Header -->
+    <header class="header" id="header">
 
-    <title>Mental Health</title>
-    <link rel="stylesheet" href="css\landing.css" />
-    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@48,400,0,0" />
-    <link rel="stylesheet"
-      href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@48,400,0,0" />
-    <link rel="stylesheet" href="css\statistics-page.css" />
-    <link rel="stylesheet" href="css\information-page.css">
-    <link rel="stylesheet" href="css/article-feed.css">
-  </head>
-  <body>
-    <div class="main-page-container">
-    <div class="scroll-nav">1</div>
-      <div class="page-container">
-        <div class="navbar">
-          <div class="right-end">
-            
-          </div>
-          <div class="right-end-shape">2</div>
-          <div class="navbar-item-container">
-              <a href="" class="navbar-item navbar-logo">
-            <span class="material-symbols-outlined home-symbol" >home</span>
-          </a>
-          <div class="dropdown">
-            <a href="" class="navbar-item  navbar-info"> Information </a>
-            <div class="information-drpdn">
-              <a href="#">what</a>
-              <a href="#">what</a>
-              <a href="#">what</a>
-              <a href="#">what</a>
+        <nav class="navbar container">
+            <a href="./index.html">
+                <h2 class="logo">MentalHealthCompass</h2>
+            </a>
+
+            <div class="menu" id="menu">
+                <ul class="list">
+                    <li class="list-item">
+                        <a href="#" class="list-link current">Home</a>
+                    </li>
+                    <li>
+                    <div class="dropdown">
+                        <button class="dropbtn">Condition and Treatment</button>
+                        <div class="dropdown-content">
+                            <a href="#">Anxiety</a>
+                            <a href="#">Depression</a>
+                            <a href="#">PTSD</a>
+                            <a href="#">ADHD</a>
+                            <a href="#">Autism</a>
+                        </div>
+                      </div>
+                    </li>
+                    <li class="list-item">
+                        <a href="#" class="list-link">Healthy living</a>
+                    </li>
+                    <li class="list-item">
+                        <a href="#" class="list-link">counsellor connect</a>
+                    </li>
+                    <li class="list-item">
+                        <a href="#" class="list-link">About us</a>
+                    </li>
+
+                </ul>
             </div>
-          </div>
-          <div class="dropdown">
-            <a href="" class="navbar-item  navbar-resources"> Resources </a>
-            <div class="information-drpdn">
-              <a href="#">what</a>
-              <a href="#">what</a>
-              <a href="#">what</a>
-              <a href="#">what</a>
+
+            <div class="list list-right">
+               
             </div>
-          </div>
-          
-          <a href="" class="navbar-item navbar-darkmode">
-            <span class="material-symbols-outlined mode-icon">
-              light_mode
-            </span>
-          </a>
 
-          </div>
-        </div>
-        <div id="top-of-site-pixel-anchor"></div>
-        <div class="body ">
-          <div class="hero-banner__title" aria-hidden="true">Wonderful title</div>
-          <img class="hero-banner__image" src="https://assets.freedommayer.com/codepen/mountains-dark.jpg" />
-          <h1 class="hero-banner__title hero-banner__stroked-title">Wonderful title</h1>
-        </div>
-      </div>
-    </div>
+        </nav>
 
-    <div class="statistics-split-content">
-      <div class="statistics-item" >
-        <div class="statistics-item-big">
-          7.5%
-        </div>
-        <div class="statistics-item-small">
-          of Indians suffer from some mental disorder or mental illness
-        </div>
-      </div>
-      <div class="statistics-item">
-        <div class="statistics-item-big">
-          150 Million
-        </div>
-        <div class="statistics-item-small">
-          Indians require some form of mental health intervention
-        </div>
-      </div>
-      <div class="statistics-item">
-        <div class="statistics-item-big">
-          56 Million
-        </div>
-        <div class="statistics-item-small">
-            Indians suffer from Depression
-        </div>
-      </div>
-      <div class="statistics-item">
-        <div class="statistics-item-big">
-          38 Million
-        </div>
-        <div class="statistics-item-small">
-          Indians suffer from anxiety
-        </div>
-      </div>
-    </div>
+    </header>
 
-
-    <div class = "information-page-container">
-      <div class = "information-page-split-1">
-        <img class = "information-graphic" src="resource/images/graphicthingimg.svg" alt="">
-      </div> 
-      <div class = "information-page-split-2">
-        <div class = "information-page-title">
-          Understanding Mental Health
-        </div>
-        <div class="information-page-content">
-          Mental health refers to a person's emotional, psychological, and social well-being. It encompases our thoughts and our feelings, how we react to those thoughts, and how those thoughts impact the decisions we make in our life.
-        </div>
-      </div> 
-    </div>
+    <!-- Search -->
     
-    <div class="article-feed-container">
-      <div class="article-feed-divide large-view-container">
-        <div class="space-taker"></div>
-        <div class="article-title">
+    <!-- Featured articles -->
+    <section class="featured-articles section section-header-offset">
+
+        <div class="main-page-landing">
+            <div class="main-page-content">
+                <h1 class="main-page-content-h">Let's Talk About</h1>
+            <h1 class="main-page-content-h">Mental Health</h1>
+            </div>
+            
         </div>
-      </div>
-      <div class="article-feed-divide medium-view-container">
-        <div class="medium-article medium-article-top">
-          <div class="space-taker"></div>
-          <div class="article-title">
-          </div>
+
+    </section>
+
+    <!-- Quick read -->
+    
+    <div class="statistics">
+        <div class="data-box">
+            <span class="value">7.5%</span><br>
+            <span class="info">of Indians suffer from some mental disorder or mental illness</span>
         </div>
-        <div class="medium-article medium-article-bottom">
-          <div class="space-taker"></div>
-          <div class="article-title">
-          </div>
+        <div class="data-box">
+            <span class="value">150 Million</span><br>
+            <span class="info">of Indians suffer from some mental disorder or mental illness</span>
         </div>
-      </div>
-      <div class="article-feed-divide quick-view-container"></div>
+        <div class="data-box">
+            <span class="value">56 Million</span><br>
+            <span class="info">of Indians suffer from some mental disorder or mental illness</span>
+        </div>
+    
     </div>
-  </body>
+    <!-- Older posts -->
+    <section class="older-posts section">
+
+        <div class="container con">
+
+            <h2 class="title section-title" data-name="Older posts">News Article</h2>
+
+            <div class="older-posts-grid-wrapper d-grid">
+
+                <a href="#" class="article d-grid">
+                    <div class="older-posts-article-image-wrapper">
+                        <img src="images/older_posts/older_posts_1.jpg" alt="" class="article-image">
+                    </div>
+
+                    <div class="article-data-container">
+
+                        <div class="article-data">
+                            <span>23 Dec 2023</span>
+                            <span class="article-data-spacer"></span>
+                            <span>3 Min read</span>
+                        </div>
+
+                        <h3 class="title article-title">A mental-health crisis </h3>
+                        <p class="article-description">A mental-health crisis is gripping science — toxic research culture is to blame With researchers reporting high rates of anxiety and depression, calls are growing to fundamentally change science before it’s too late. </p>
+
+                    </div>
+                </a>
+
+                <a href="#" class="article d-grid">
+                    <div class="older-posts-article-image-wrapper">
+                        <img src="images/older_posts/older_posts_2.jpg" alt="" class="article-image">
+                    </div>
+
+                    <div class="article-data-container">
+
+                        <div class="article-data">
+                            <span>23 Dec 2023</span>
+                            <span class="article-data-spacer"></span>
+                            <span>3 Min read</span>
+                        </div>
+
+                        <h3 class="title article-title">Effect of coffee on mental health</h3>
+                        <p class="article-description">High amounts of caffeine can lead to the negative health effects associated with prolonged elevated levels of cortisol (as in chronic stress). However, small to moderate amounts of caffeine can lift your mood and give you a boost</p>
+
+                    </div>
+                </a>
+
+                <a href="#" class="article d-grid">
+                    <div class="older-posts-article-image-wrapper">
+                        <img src="images/older_posts/older_posts_3.jpg" alt="" class="article-image">
+                    </div>
+
+                    <div class="article-data-container">
+
+                        <div class="article-data">
+                            <span>23 Dec 2023</span>
+                            <span class="article-data-spacer"></span>
+                            <span>3 Min read</span>
+                        </div>
+
+                        <h3 class="title article-title">How Does Lack of Sleep Affect Mental Health?</h3>
+                        <p class="article-description">here is now robust evidence similarly supporting that sleep is critical to not only our physical health but also our mental health. Poor or insufficient sleep has been found to increase negative emotional responses to stressors and to decrease positive emotions.</p>
+
+                    </div>
+                </a>
+
+                <a href="https://www.verywellmind.com/are-there-mental-health-benefits-to-living-in-a-small-space-5270523" class="article d-grid">
+                    <div class="older-posts-article-image-wrapper">
+                        <img src="images/older_posts/older_posts_4.jpg" alt="" class="article-image">
+                    </div>
+
+                    <div class="article-data-container">
+
+                        <div class="article-data">
+                            <span>23 Dec 2023</span>
+                            <span class="article-data-spacer"></span>
+                            <span></span>
+                        </div>
+
+                        <h3 class="title article-title">The Mental Health Benefits of Living in a Small Space</h3>
+                        <p class="article-description">Living in a small space has benefits and drawbacks for your mental health. If you perceive your environment to be clean, orderly, and comfortable, you will do better in a small space. If you feel crowded and not comfortable at home, you will do worse</p>
+
+                    </div>
+                </a>
+
+                <a href="https://www.vice.com/en/article/wxdd44/mental-health-cafe-therapy-counselling-india" class="article d-grid">
+                    <div class="older-posts-article-image-wrapper">
+                        <img src="images/older_posts/older_posts_5.jpg" alt="" class="article-image">
+                    </div>
+
+                    <div class="article-data-container">
+
+                        <div class="article-data">
+                            <span>23 Dec 2023</span>
+                            <span class="article-data-spacer"></span>
+                            <span>3 Min read</span>
+                        </div>
+
+                        <h3 class="title article-title">This Young Indian Started a Mental Health Cafe</h3>
+                        <p class="article-description">D’Souza was barely 8 or 9 back then. “As a child, I didn’t understand the concept of death,” the 20-year-old from the northern Indian city of Mohali told VICE. “All I knew was that if I had been there, I’d have talked to him. I’d have helped him out.” </p>
+
+                    </div>
+                </a>
+
+                <a href="#" class="article d-grid">
+                    <div class="older-posts-article-image-wrapper">
+                        <img src="images/older_posts/older_posts_6.jpg" alt="" class="article-image">
+                    </div>
+
+                    <div class="article-data-container">
+
+                        <div class="article-data">
+                            <span>23 Dec 2023</span>
+                            <span class="article-data-spacer"></span>
+                            <span>3 Min read</span>
+                        </div>
+
+                        <h3 class="title article-title">8 benefits of waking up early</h3>
+                        <p class="article-description">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Similique a tempore sapiente corporis, eaque fuga placeat odit voluptatibus.</p>
+
+                    </div>
+                </a>
+
+            </div>
+
+            <div class="see-more-container">
+                <a href="#" class="btn see-more-btn place-items-center">See more <i class="ri-arrow-right-s-line"></i></i></a>
+            </div>
+
+        </div>
+
+    </section>
+
+    <!-- Popular tags -->
+    <section class="popular-tags section">
+
+        <div class="container">
+
+            <h2 class="title section-title" data-name="Popular tags">For Better Health</h2>
+
+            <div class="popular-tags-container d-grid">
+
+                <a href="#" class="article">
+                    <span class="tag-name">Breaks from Work</span>
+                    <img src="images/tags/travel-tag.jpg" alt="" class="article-image">
+                </a>
+
+                <a href="#" class="article">
+                    <span class="tag-name">Healthy Food</span>
+                    <img src="images/tags/food-tag.jpg" alt="" class="article-image">
+                </a>
+
+                <a href="#" class="article">
+                    <span class="tag-name">Judicious use of Technology</span>
+                    <img src="images/tags/technology-tag.jpg" alt="" class="article-image">
+                </a>
+
+                <a href="#" class="article">
+                    <span class="tag-name">Healthy environment</span>
+                    <img src="images/tags/health-tag.jpg" alt="" class="article-image">
+                </a>
+
+                <a href="#" class="article">
+                    <span class="tag-name">Interaction with Nature</span>
+                    <img src="images/tags/nature-tag.jpg" alt="" class="article-image">
+                </a>
+
+                <a href="#" class="article">
+                    <span class="tag-name">Fitness</span>
+                    <img src="images/tags/fitness-tag.jpg" alt="" class="article-image">
+                </a>
+
+            </div>
+
+        </div>
+    </section>
+
+    <!-- Newsletter -->
+    <section class="newsletter section">
+
+        <div class="container">
+
+            <h2 class="title section-title" data-name="Newsletter">Newsletter</h2>
+
+            <div class="form-container-inner">
+                <h6 class="title newsletter-title">Subscribe to NewsFlash</h6>
+                <p class="newsletter-description">Lorem ipsum dolor sit amet consectetur adipisicing quaerat dignissimos.</p>
+
+                <form action="" class="form">
+                    <input class="form-input" type="text" placeholder="Enter your email address">
+                    <button class="btn form-btn" type="submit">
+                        <i class="ri-mail-send-line"></i>
+                    </button>
+                </form>
+
+            </div>
+
+        </div>
+
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer section">
+
+        <div class="footer-container container d-grid">
+            
+            <div class="company-data">
+                <a href="./index.html">
+                    <h2 class="logo">MentalHealthCompass</h2>
+                </a>
+                <p class="company-description">Embrace Your Journey: Empowering Minds, Nurturing Hearts, and Breaking the Stigma Surrounding Mental Health for a Happier and Healthier You</p>
+                
+                <ul class="list social-media">
+                    <li class="list-item">
+                        <a href="#" class="list-link"><i class="ri-instagram-line"></i></a>
+                    </li>
+                    <li class="list-item">
+                        <a href="#" class="list-link"><i class="ri-facebook-circle-line"></i></a>
+                    </li>
+                    <li class="list-item">
+                        <a href="#" class="list-link"><i class="ri-twitter-line"></i></a>
+                    </li>
+                    <li class="list-item">
+                        <a href="#" class="list-link"><i class="ri-pinterest-line"></i></a>
+                    </li>
+                </ul>
+
+                <span class="copyright-notice">&copy;2023 MentalHealthCompass. All rights reserved.</span>
+            </div>
+
+            <div>
+                <h6 class="title footer-title">Categories</h6>
+                
+                <ul class="footer-list list">
+                    <li class="list-item">
+                        <a href="#" class="list-link">peaceful vacation spots</a>
+                    </li>
+                    <li class="list-item">
+                        <a href="#" class="list-link">Healthy Food</a>
+                    </li>
+                    <li class="list-item">
+                        <a href="#" class="list-link">self hygiene</a>
+                    </li>
+                    <li class="list-item">
+                        <a href="#" class="list-link">nature therapy</a>
+                    </li>
+                    <li class="list-item">
+                        <a href="#" class="list-link">Fitness routine</a>
+                    </li>
+                </ul>
+
+            </div>
+
+            <div>
+                <h6 class="title footer-title">Useful links</h6>
+                
+                <ul class="footer-list list">
+                    <li class="list-item">
+                        <a href="#" class="list-link">Home</a>
+                    </li>
+                    <li class="list-item">
+                        <a href="#" class="list-link">Elements</a>
+                    </li>
+                    <li class="list-item">
+                        <a href="#" class="list-link">Tags</a>
+                    </li>
+                    <li class="list-item">
+                        <a href="#" class="list-link">Authors</a>
+                    </li>
+                    <li class="list-item">
+                        <a href="#" class="list-link">Membership</a>
+                    </li>
+                </ul>
+
+            </div>
+
+            <div>
+
+        </div>
+        
+    </footer>
+
+    <!-- Swiper.js -->
+    <script src="js/swiper-bundle.min.js"></script>
+    <!-- Custom script -->
+    <script src="js/main.js"></script>
+</body>
 </html>

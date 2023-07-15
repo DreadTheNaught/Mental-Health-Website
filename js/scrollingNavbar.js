@@ -1,10 +1,11 @@
-window.onscroll = function () { scrollFunction() };
-
-function scrollFunction() {
-    if (document.body.scrollTop > 50 || document.documentElement.scrollTop > 50) {
-        document.getElementById("scroll-nav").style.background-color= "white";
+window.addEventListener('scroll', function() {
+    var navbar = document.querySelector('.main-page-navbar');
+    var threshold = 100; // Adjust this value to your desired scroll threshold
+  
+    if (window.scrollY > threshold) {
+      navbar.classList.add('fixed');
     } else {
-        document.getElementById("scroll-nav").style.fontSize = "90px";
+      navbar.classList.remove('fixed');
     }
-}
-
+  });
+  
