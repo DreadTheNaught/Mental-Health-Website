@@ -1,0 +1,269 @@
+:root {
+    --test-border: 2px solid white;
+    --primary-background-color: #131417;
+    --light-color: #fff;
+}
+
+html,
+body {
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    color: var(--light-color);
+    background-color: var(--primary-background-color);
+}
+
+.navbarspace {
+    display: flex;
+    width: 100%;
+    height: 15%;
+}
+
+.main-page {
+    display: flex;
+    width: 100%;
+    height: 85%;
+    background-color: #080e19;
+    scroll-snap-align: start;
+    background-image: url("../resource/images/clouds.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: bottom;
+}
+
+.title-half {
+    display: flex;
+    height: 100%;
+    width: 50%;
+    background-size: cover;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.title-text {
+    display: flex;
+    font-size: 100px;
+    color: #EFF4F8;
+    text-align: center; 
+}
+
+.subtitle-text {
+    display: flex;
+    font-size: 2rem;
+    color: #EFF4F8;
+    text-align: center;
+}
+
+.content-half {
+    display: flex;
+    height: 100%;
+    width: 50%;
+    justify-content: center;
+    align-items: center;
+}
+
+.content-text {
+    color: #EFF4F8;
+    width: 70%;
+    font-size: 27px;
+}
+
+.depression-main {
+    display: flex;
+    width: 100%;
+    height: 100%;
+    background-color: #080e19;
+    scroll-snap-align: start;
+}
+
+.depression-content-half {
+    display: flex;
+    width: 50%;
+    height: 100%;
+    justify-content: center;
+    align-items: center;
+}
+
+.depression-content-text {
+    color: #EFF4F8;
+    width: 70%;
+    font-size: 27px;
+}
+
+.depression-title-half {
+    display: flex;
+    width: 50%;
+    height: 100%;
+    justify-content: center;
+    align-items: center;
+    background-image: url("../resource/images/photo1.avif");
+}
+
+.depression-title-text {
+    display: flex;
+    font-size: 100px;
+    color: #EFF4F8;
+    background-color: rgba(56, 56, 56, 0.3);
+    border-radius: 30px;
+}
+
+.anxiety-main {
+    display: flex;
+    width: 100%;
+    height: 100%;
+    background-color: #080e19;
+    scroll-snap-align: start;
+}
+
+.anxiety-title-half {
+    display: flex;
+    width: 50%;
+    height: 100%;
+    justify-content: center;
+    align-items: center;
+    background-image: url("../resource/images/photo2.avif");
+}
+
+.anxiety-title-text {
+    display: flex;
+    font-size: 100px;
+    color: #EFF4F8;
+    background-color: rgba(56, 56, 56, 0.3);
+    border-radius: 30px;
+}
+
+.anxiety-content-half {
+    display: flex;
+    width: 50%;
+    height: 100%;
+    justify-content: center;
+    align-items: center;
+}
+
+.anxiety-content-text {
+    color: #EFF4F8;
+    width: 70%;
+    font-size: 27px;
+}
+
+.ptsd-main {
+    display: flex;
+    width: 100%;
+    height: 100%;
+    background-color: #080e19;
+    scroll-snap-align: start;
+}
+
+.ptsd-title-half {
+    display: flex;
+    width: 50%;
+    height: 100%;
+    justify-content: center;
+    align-items: center;
+    background-image: url("../resource/images/photo3.jpg");
+    background-size: cover;
+}
+
+.ptsd-title-text {
+    display: flex;
+    font-size: 100px;
+    color: #EFF4F8;
+    background-color: rgba(56, 56, 56, 0.3);
+    border-radius: 30px;
+}
+
+.ptsd-content-half {
+    display: flex;
+    width: 50%;
+    height: 100%;
+    justify-content: center;
+    align-items: center;
+}
+
+.ptsd-content-text {
+    color: #EFF4F8;
+    width: 70%;
+    font-size: 27px;
+    background-color: rgba(56, 56, 56, 0.3);
+}
+
+.adhd-main {
+    display: flex;
+    width: 100%;
+    height: 100%;
+    background-color: #080e19;
+    scroll-snap-align: start;
+}
+
+.adhd-title-half {
+    display: flex;
+    width: 50%;
+    height: 100%;
+    justify-content: center;
+    align-items: center;
+    background-image: url("../resource/images/photo4.png");
+    background-position: center;
+}
+
+.adhd-title-text {
+    display: flex;
+    font-size: 100px;
+    color: #EFF4F8;
+    background-color: rgba(56, 56, 56, 0.6);
+    border-radius: 30px;
+}
+
+.adhd-content-half {
+    display: flex;
+    width: 50%;
+    height: 100%;
+    justify-content: center;
+    align-items: center;
+}
+
+.adhd-content-text {
+    color: #EFF4F8;
+    width: 70%;
+    font-size: 27px;
+}
+
+.autism-main {
+    display: flex;
+    width: 100%;
+    height: 100%;
+    background-color: #080e19;
+    scroll-snap-align: start;
+}
+
+.autism-content-half {
+    display: flex;
+    width: 50%;
+    height: 100%;
+    justify-content: center;
+    align-items: center;
+}
+
+.autism-content-text {
+    color: #EFF4F8;
+    width: 70%;
+    font-size: 27px;
+}
+
+.autism-title-half {
+    display: flex;
+    width: 50%;
+    height: 100%;
+    justify-content: center;
+    align-items: center;
+    background-image: url("../resource/images/photo5.avif");
+}
+
+.autism-title-text {
+    display: flex;
+    font-size: 100px;
+    color: #EFF4F8;
+    border-radius: 30px;
+    background-color: rgba(56, 56, 56, 0.3);
+    border-radius: 30px;
+}
