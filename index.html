@@ -16,50 +16,50 @@
 <body>
     <!-- Header -->
     <header class="header" id="header">
+      
+      <nav class="navbar container">
+          <a href="./index.html">
+              <h2 class="logo">MentalHealthCompass</h2>
+          </a>
 
-        <nav class="navbar container">
-            <a href="./index.html">
-                <h2 class="logo">MentalHealthCompass</h2>
-            </a>
-
-            <div class="menu" id="menu">
-                <ul class="list">
-                    <li class="list-item">
-                        <a href="#" class="list-link current">Home</a>
-                    </li>
-                    <li>
-                    <div class="dropdown">
-                        <button class="dropbtn">Condition and Treatment</button>
-                        <div class="dropdown-content">
-                            <a href="#">Anxiety</a>
-                            <a href="#">Depression</a>
-                            <a href="#">PTSD</a>
-                            <a href="#">ADHD</a>
-                            <a href="#">Autism</a>
-                        </div>
+          <div class="menu" id="menu">
+              <ul class="list">
+                  <li class="list-item">
+                      <a href="../index.html" class="list-link current">Home</a>
+                  </li>
+                  <li>
+                  <div class="dropdown">
+                      <button class="dropbtn"><a href="html/conditions-treatment-page.html">Condition and Treatment</a></button>
+                      <div class="dropdown-content">
+                          <a href="html/conditions-treatment-page.html#anxiety">Anxiety</a>
+                          <a href="html/conditions-treatment-page.html#depression">Depression</a>
+                          <a href="html/conditions-treatment-page.html#ptsd">PTSD</a>
+                          <a href="html/conditions-treatment-page.html#adhd">ADHD</a>
+                          <a href="html/conditions-treatment-page.html#autism">Autism</a>
                       </div>
-                    </li>
-                    <li class="list-item">
-                        <a href="#" class="list-link">Healthy living</a>
-                    </li>
-                    <li class="list-item">
-                        <a href="#" class="list-link">counsellor connect</a>
-                    </li>
-                    <li class="list-item">
-                        <a href="#" class="list-link">About us</a>
-                    </li>
+                    </div>
+                  </li>
+                  <li class="list-item">
+                      <a href="post.html" class="list-link">Healthy living</a>
+                  </li>
+                  <li class="list-item">
+                      <a href="html/maps-page.html" class="list-link">counsellor connect</a>
+                  </li>
+                  <li class="list-item">
+                      <a href="#" class="list-link">About us</a>
+                  </li>
 
-                </ul>
-            </div>
+              </ul>
+          </div>
 
-            <div class="list list-right">
-               
-            </div>
+          <div class="list list-right">
+             
+          </div>
 
-        </nav>
+      </nav>
 
-    </header>
-
+  </header>
+  
     <!-- Search -->
     
     <!-- Featured articles -->
@@ -271,20 +271,43 @@
 
     <!-- Newsletter -->
     <section class="newsletter section">
-
+      
         <div class="container">
 
             <h2 class="title section-title" data-name="Newsletter">Newsletter</h2>
 
             <div class="form-container-inner">
                 <h6 class="title newsletter-title">Subscribe to NewsFlash</h6>
-                <p class="newsletter-description">Lorem ipsum dolor sit amet consectetur adipisicing quaerat dignissimos.</p>
-
-                <form action="" class="form">
-                    <input class="form-input" type="text" placeholder="Enter your email address">
+                <p class="newsletter-description">To know about current researches and technique that can be used to treat mental health</p>
+                <script>
+                  function validateInfo(){
+                    var email=document.member.email.value;
+                    var password=document.member.pass.value;
+                    var dot = email.lastIndexOf(".");
+                    var at = email.indexOf("@");
+                
+                    if (password.length>10||password.length==0){
+                      alert("DIEEEE");
+                      return false;
+                    }
+                    else if (at<1||dot-at<2||dot>email.length){
+                      alert("EMAIL AND DIEE");
+                      return false;
+                    }
+                    else {
+                      return true;
+                    }
+                
+                  }
+                
+            
+                </script>
+                <form action="" class="form" id="validateInfo" onsubmit="">
+                    <input class="form-input" type="text" placeholder="Enter your email address" id="enter">
                     <button class="btn form-btn" type="submit">
                         <i class="ri-mail-send-line"></i>
                     </button>
+                    <input type="submit" value="submi">
                 </form>
 
             </div>
@@ -327,19 +350,19 @@
                 
                 <ul class="footer-list list">
                     <li class="list-item">
-                        <a href="#" class="list-link">peaceful vacation spots</a>
+                        <a href="https://www.google.com/url?sa=t&rct=j&q=&esrc=s&source=web&cd=&cad=rja&uact=8&ved=2ahUKEwicjsi95I-AAxVza2wGHfnhBVAQFnoECA0QAQ&url=https%3A%2F%2Fwww.travelandleisure.com%2Ftrip-ideas%2Fmost-relaxing-peaceful-destinations-worldwide&usg=AOvVaw090bYOdyuXkYOQBwQYSbsC&opi=89978449" class="list-link">peaceful vacation spots</a>
                     </li>
                     <li class="list-item">
-                        <a href="#" class="list-link">Healthy Food</a>
+                        <a href="https://www.google.com/url?sa=t&rct=j&q=&esrc=s&source=web&cd=&cad=rja&uact=8&ved=2ahUKEwib2tTf5I-AAxXBT2wGHdmRDS0QFnoECBAQAw&url=https%3A%2F%2Fwww.mind.org.uk%2Finformation-support%2Ftips-for-everyday-living%2Ffood-and-mental-health%2F&usg=AOvVaw24Tq4K-KTusrWpCT2PsD_L&opi=89978449" class="list-link">Healthy Food</a>
                     </li>
                     <li class="list-item">
-                        <a href="#" class="list-link">self hygiene</a>
+                        <a href="https://www.google.com/url?sa=t&rct=j&q=&esrc=s&source=web&cd=&cad=rja&uact=8&ved=2ahUKEwjC6b7v5I-AAxXKamwGHc2ADCsQFnoECBYQAw&url=https%3A%2F%2Fwww.innerbody.com%2Fimpacts-of-personal-hygiene-on-your-health&usg=AOvVaw13AZ2ShBuJggcj7qdOai7O&opi=89978449" class="list-link">self hygiene</a>
                     </li>
                     <li class="list-item">
-                        <a href="#" class="list-link">nature therapy</a>
+                        <a href="https://www.google.com/url?sa=t&rct=j&q=&esrc=s&source=web&cd=&cad=rja&uact=8&ved=2ahUKEwiTh6qH5Y-AAxUoTmwGHbyGAbwQFnoECBIQAw&url=https%3A%2F%2Fwww.physio-pedia.com%2FNature_Therapy&usg=AOvVaw2t4CnwQMZYbysvRSwAEXws&opi=89978449" class="list-link">nature therapy</a>
                     </li>
                     <li class="list-item">
-                        <a href="#" class="list-link">Fitness routine</a>
+                        <a href="https://www.google.com/url?sa=t&rct=j&q=&esrc=s&source=web&cd=&cad=rja&uact=8&ved=2ahUKEwj2mNGm5Y-AAxXBT2wGHRKdCEQQFnoECA4QAw&url=https%3A%2F%2Fwww.puregym.com%2Fblog%2F6-of-the-best-exercises-for-mental-health%2F&usg=AOvVaw3jbfFXBA2mSLnUGCKa2iX3&opi=89978449" class="list-link">Fitness routine</a>
                     </li>
                 </ul>
 
@@ -350,19 +373,19 @@
                 
                 <ul class="footer-list list">
                     <li class="list-item">
-                        <a href="#" class="list-link">Home</a>
+                        <a href="index.html" class="list-link">Home</a>
                     </li>
                     <li class="list-item">
-                        <a href="#" class="list-link">Elements</a>
+                        <a href="html/conditions-treatment-page.html" class="list-link">condition and treatments</a>
                     </li>
                     <li class="list-item">
-                        <a href="#" class="list-link">Tags</a>
+                        <a href="post.html" class="list-link">healthy lifestyle</a>
                     </li>
                     <li class="list-item">
-                        <a href="#" class="list-link">Authors</a>
+                        <a href="html/maps-page.html" class="list-link">counsellor connect</a>
                     </li>
                     <li class="list-item">
-                        <a href="#" class="list-link">Membership</a>
+                        <a href="#" class="list-link">About us</a>
                     </li>
                 </ul>
 
@@ -373,10 +396,5 @@
         </div>
         
     </footer>
-
-    <!-- Swiper.js -->
-    <script src="js/swiper-bundle.min.js"></script>
-    <!-- Custom script -->
-    <script src="js/main.js"></script>
 </body>
 </html>
